@@ -3,14 +3,15 @@ Andy Ganse, Applied Physics Laboratory, University of Washington
 aganse@apl.washington.edu
 
 ----------------------------------------------------------------
-Watch out, this code and its results have a number of problems -
-don't use it for anything serious till it's fixed.  Meanwhile
-for a rigorous and accurate Matlab code and writeup for the two-
-line segment problem (the same approach can be used for the
-three-segment problem) please see my webapge:
+Watch out, this version of the code has some fundamental mathematical
+problems - don't use it for anything serious till that's fixed.
+Meanwhile my Matlab code multiregresslines.matlab.tgz for this
+problem is rigorous and accurate.  The overall problem and its
+accurate description is discussed on my webpage:
 http://staff.washington.edu/aganse/mpregression/mpregression.html
-and my multiregresslines.matlab.tgz code that it describes.
-But in the meantime this applet is still kindof fun to play with!
+But in the meantime this applet is still fun to play with, and has
+usually reasonable-looking plotted results (but studying the numbers
+shows the real story - it'll get there someday).
 ----------------------------------------------------------------
 
 ----------------------------------------------------------------
@@ -36,18 +37,18 @@ the join point(s).
 The included, ready-made java program MultiRegressLines.jar 
 runs at the command line, fits all three cases (1,2,3 segments)
 to data pairs in a columnar ascii file, and plots the result.
+Be sure to see the screenshot1.png and screenshot2.png files.
 
 To run the MultiRegressLines application you will must install
 the Java Runtime Environment (JRE), Java 2 version 1.4.0 or
 higher, available from http://java.sun.com/getjava .
 
 To run MultiRegressLines.jar, after Java is installed on your
-system and the environment variables have been set, from within
-the directory containing MultiRegressLines.jar you can enter
-"java -jar MultiRegressLines.jar" at the commandline to get a
-usage listing.  The program is entirely self contained within
-that .jar file, so you can move it to whatever directory you like
-(some common binary-executable directory for example).
+system, from within the directory containing MultiRegressLines.jar
+you can enter "java -jar MultiRegressLines.jar" at the commandline
+to get a usage listing.  The program is entirely self contained
+within that .jar file, so you can move it to whatever directory
+you like (some common binary-executable directory for example).
 
 To recompile all the routines and the MultiRegressLines.jar program
 on a UNIX system, just type "make" at the commandline, and
