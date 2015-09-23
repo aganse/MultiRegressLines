@@ -1,14 +1,15 @@
 ![Example screenshot](screenshot.png)
 
-MultiRegressLines, 2002-2015
-Andy Ganse, Applied Physics Laboratory, University of Washington
-aganse@apl.washington.edu
+MultiRegressLines, 2002-2015  
+Andy Ganse, Applied Physics Laboratory, University of Washington  
+aganse@apl.washington.edu  
 
 *Watch out, this version of the code still has some fundamental mathematical
 problems - it's fun to play with but don't use it yet for anything serious till
 it's updated.  Meanwhile my Matlab code multiregresslines.matlab.tgz for this
-problem (also on GitHub) is rigorous and accurate.  The overall problem and its
-accurate description is discussed on my webpage:
+problem (also on GitHub) is rigorous and accurate (but presently only does up
+to two line segments).  The overall problem and its accurate description is
+discussed on my webpage:
 http://staff.washington.edu/aganse/mpregression/mpregression.html*
 
 ----------------------------------------------------------------
