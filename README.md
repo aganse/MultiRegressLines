@@ -5,7 +5,7 @@ Andy Ganse, Applied Physics Laboratory, University of Washington
 aganse@apl.washington.edu  
 
 *Watch out, this version of the code still has some fundamental mathematical
-problems - it's fun to play with but don't use it yet for anything serious till
+problems - it's fun to play with but don't use it yet for serious analysis till
 it's updated.  Meanwhile my Matlab code multiregresslines.matlab.tgz for this
 problem (also on GitHub) is rigorous and accurate (but presently only does up
 to two line segments).  The overall problem and its accurate description is
